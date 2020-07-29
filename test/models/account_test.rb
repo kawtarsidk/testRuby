@@ -31,9 +31,4 @@ class AccountTest < ActiveSupport::TestCase
     assert_not duplicate_account.valid?
   end
 
-  test 'password should have a minimum length' do
-    @account.password = @account.password = 'a' * 5
-    assert_not @account.valid?
-  end
-  
 end

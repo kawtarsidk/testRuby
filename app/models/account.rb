@@ -6,7 +6,4 @@ class Account < ApplicationRecord
             uniqueness: true
   validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
 
-  def password_confirmation=
-    # code here
-  end
 end
