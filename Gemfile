@@ -54,3 +54,7 @@ end
 gem 'strong_parameters'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "faker", "~> 2.13"
+
+gem "fabrication", "~> 2.21"

@@ -37,5 +37,8 @@ class IntegrationTest < ActionDispatch::IntegrationTest
     assert_redirected_to login_url
   end
 
+  test 'should redirect page home when logged in' do
+    assert_redirected_to home_url
+  end
 
 end
